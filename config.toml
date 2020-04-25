@@ -1,0 +1,73 @@
+baseURL = "https://aashishpiitk.github.io"
+title = "Numpy Overload"
+theme = "erblog"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[params]
+    author = "Aashish Patel"
+    # logo = "//blog.ertuil.top/avater.png"
+    bio = """
+    <p>I'm Electrical Engineering Student at IIT Kanpur.</p>
+    <br />
+    <p> Sophomore</p>
+    <br />
+    <p>Also all html tags such as <a href="https://github.com/ertuil/erblog">link</a> are a good here.</p>
+    """
+
+
+#[[menu.main]]
+#    identifier = "about"
+#    name = "About"
+#    url = "/about/"
+#    weight = 10
+
+#[[menu.main]]
+#    identifier = "zone"
+#    name = "Zone"
+#    url = "/zone/"
+#    weight = 10
+
+[[menu.footer]]
+    identifier = "home"
+    name = "home"
+    url = "/"
+    weight = 1
+
+[[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[menu.icon]]
+    url = "mailto:aashishp@iitk.ac.in"
+    name = "envelope-o"
+    weight = 0.5
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/aashish-patel-800841158/"
+    name = "linkedin"
+    weight = 0.5
+
+[[menu.icon]]
+    url = "https://github.com/aashishpiitk/"
+    name = "github"
+    weight = 0.5
+
+[[menu.icon]]
+    url = "https://twitter.com/username"
+    name = "facebook"
+    weight = 0.5
+
+[[menu.icon]]
+    url = "https://www.instagram.com/username/"
+    name = "instagram"
+    weight = 0.5
